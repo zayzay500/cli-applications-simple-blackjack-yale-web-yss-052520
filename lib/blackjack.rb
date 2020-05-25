@@ -7,7 +7,7 @@ end
 def deal_card
   # code #deal_card here
   num = rand(12)
-  print num
+  p num
 end
 
 def display_card_total
