@@ -20,9 +20,9 @@ end
 
 def get_user_input
   # code #get_user_input here
-  p "Type 'h' to hit or 's' to stay"
+  print "Type 'h' to hit or 's' to stay"
 end
-binding.pry
+
 def end_game
   # code #end_game here
 end
