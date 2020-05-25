@@ -1,9 +1,13 @@
+require 'pry'
 def welcome
   # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
   # code #deal_card here
+  num = rand(12)
+  binding.pry
 end
 
 def display_card_total
